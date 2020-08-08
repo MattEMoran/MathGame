@@ -47,7 +47,7 @@ class ViewController: UIViewController {
         //Presents user with a tutorial
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "?", style: .plain, target: self, action: #selector(tutorial))
         
-        tutorial()
+        tutorial() // Calls tutorial function to explain rules to user
         
         //Sets timer
         
